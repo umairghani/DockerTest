@@ -7,7 +7,7 @@ MAINTAINER Umair Ghani <umairghani@gmail.com>
 RUN \
     # load repo metadata from above
     yum clean all && yum makecache && \
-    # install packages (jenkins needs at least java and git)
+    # install packages
     yum install -y python \
     # update everything not already newer
     yum update -y && \
